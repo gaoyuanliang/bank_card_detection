@@ -70,9 +70,11 @@ They look like
 Run the detection codes
 
 > bank_card_detection('1200px-Sample_cheque.jpeg')
+>
 > bank_card_detection('Dubai_2_2340x800-1170x400.jpg')
 
 You will see not outputs because there is no bank card at all
 
 > {}
+>
 > {}
