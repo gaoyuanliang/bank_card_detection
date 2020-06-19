@@ -20,7 +20,7 @@ download the test image by
 
 > wget https://www.mashreqbank.com/egypt/en/images/Platinum-Credit-Card_tcm74-220679.jpg
 
-the images look like
+the image looks like
 
 ![alt text](https://www.mashreqbank.com/egypt/en/images/Platinum-Credit-Card_tcm74-220679.jpg)
 
