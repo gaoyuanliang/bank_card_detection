@@ -18,7 +18,9 @@ download the pretrain model of bank card detection from the following url
 
 to use the model to tag the image, we have four cases
 
-1. download the test image by 
+** Test case #1 
+
+download the test image by 
 
 > wget https://www.mashreqbank.com/egypt/en/images/Platinum-Credit-Card_tcm74-220679.jpg
 
