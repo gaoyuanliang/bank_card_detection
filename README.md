@@ -14,7 +14,7 @@ download the pretrain model of bank card detection from the following url
 
 to use the model to tag the image, we have four cases
 
-**Test case #1 
+**Test case #1**
 
 download the test image by 
 
