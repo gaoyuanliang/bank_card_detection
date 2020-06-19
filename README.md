@@ -52,4 +52,15 @@ you will see the following output since the image has a group of visa cards
 
 > {'tag': 'bank_card', 'score': 0.9973912}
 
+**Test case #3 and #4**
+
+Then we will see two negative casese where the images have no bank card at all. 
+
+Firstly download the images by 
+
+> wget https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Sample_cheque.jpeg/1200px-Sample_cheque.jpeg
+> wget https://www.uae-ix.net/Files/1e45b49e6debd4ed0a5e4dffbf17aa3fe5c04f89/Dubai_2_2340x800-1170x400.jpg
+
+
+
 
