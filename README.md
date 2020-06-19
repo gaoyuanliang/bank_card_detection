@@ -48,7 +48,7 @@ run the test code
 
 > bank_card_detection('_67649781_160757669.jpg')
 
-you will see the following output since the image itself is a credit card
+you will see the following output since the image has a group of visa cards
 
 > {'tag': 'bank_card', 'score': 0.9973912}
 
