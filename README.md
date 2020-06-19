@@ -74,5 +74,5 @@ Run the detection codes
 
 You will see not outputs because there is no bank card at all
 
->
-> 
+> {}
+> {}
