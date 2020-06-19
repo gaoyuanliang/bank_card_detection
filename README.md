@@ -1,4 +1,4 @@
-to install the cheque detector model, you need Python 3.7.7 
+to install the bank card detector, you need Python 3.7.7 
 
 > git clone https://github.com/gaoyuanliang/bank_card_detection.git
 >
