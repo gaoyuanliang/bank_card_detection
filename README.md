@@ -28,9 +28,28 @@ run the test code
 
 > from bank_card_detection import bank_card_detection
 >
-> print(bank_card_detection("Platinum-Credit-Card_tcm74-220679.jpg"))
+> bank_card_detection('Platinum-Credit-Card_tcm74-220679.jpg')
 
 you will see the following output since the image itself is a credit card
 
 > {'tag': 'bank_card', 'score': 0.9966258}
+
+**Test case #2**
+
+download the test image by 
+
+> wget https://ichef.bbci.co.uk/news/1024/media/images/67649000/jpg/_67649781_160757669.jpg
+
+the image looks like
+
+![alt text](https://ichef.bbci.co.uk/news/1024/media/images/67649000/jpg/_67649781_160757669.jpg)
+
+run the test code
+
+> bank_card_detection('_67649781_160757669.jpg')
+
+you will see the following output since the image itself is a credit card
+
+> {'tag': 'bank_card', 'score': 0.9973912}
+
 
