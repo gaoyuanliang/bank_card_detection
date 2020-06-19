@@ -16,19 +16,14 @@ download the pretrain model of bank card detection from the following url
 
 > https://drive.google.com/file/d/10H70SUi1C5R79cu-27u-bg9ytnZ8JV9F/view?usp=sharing
 
-to use the model to tag the image
+to use the model to tag the image, we have four cases
 
+1. download the test image by 
 
+> wget https://www.mashreqbank.com/egypt/en/images/Platinum-Credit-Card_tcm74-220679.jpg
 
 run the test code
 
-> from cheque_detection import cheque_detection
+> from bank_card_detection import bank_card_detection
 >
-> print(cheque_detection("test_sample1.jpg"))
-> 
-> print(cheque_detection("test_sample2.jpg"))
->
-> print(cheque_detection("test_sample3.jpg"))
-
-
-
+> print(bank_card_detection("Platinum-Credit-Card_tcm74-220679.jpg"))
