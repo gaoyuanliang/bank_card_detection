@@ -48,7 +48,9 @@ you will see the following output since the image itself is a credit card
 
 download the test image by 
 
-> wget https://ichef.bbci.co.uk/news/1024/media/images/67649000/jpg/_67649781_160757669.jpg
+```bash
+wget https://ichef.bbci.co.uk/news/1024/media/images/67649000/jpg/_67649781_160757669.jpg
+```
 
 the image looks like
 
@@ -56,11 +58,15 @@ the image looks like
 
 run the test code
 
-> bank_card_detection('_67649781_160757669.jpg')
+```python
+bank_card_detection('_67649781_160757669.jpg')
+```
 
 you will see the following output since the image has a group of visa cards
 
-> {'tag': 'bank_card', 'score': 0.9973912}
+```python
+{'tag': 'bank_card', 'score': 0.9973912}
+```
 
 **Test case #3 and #4**
 
@@ -68,9 +74,11 @@ Then we will see two negative casese where the images have no bank card at all.
 
 Firstly download the images by 
 
-> wget https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Sample_cheque.jpeg/1200px-Sample_cheque.jpeg
->
-> wget https://www.uae-ix.net/Files/1e45b49e6debd4ed0a5e4dffbf17aa3fe5c04f89/Dubai_2_2340x800-1170x400.jpg
+```bash
+wget https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Sample_cheque.jpeg/1200px-Sample_cheque.jpeg
+
+wget https://www.uae-ix.net/Files/1e45b49e6debd4ed0a5e4dffbf17aa3fe5c04f89/Dubai_2_2340x800-1170x400.jpg
+```
 
 They look like 
 
@@ -80,12 +88,16 @@ They look like
 
 Run the detection codes
 
-> bank_card_detection('1200px-Sample_cheque.jpeg')
->
-> bank_card_detection('Dubai_2_2340x800-1170x400.jpg')
+```python
+bank_card_detection('1200px-Sample_cheque.jpeg')
+
+bank_card_detection('Dubai_2_2340x800-1170x400.jpg')
+```
 
 You will see not outputs because there is no bank card at all
 
-> {}
->
-> {}
+```python
+{}
+
+{}
+```
