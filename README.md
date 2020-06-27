@@ -32,13 +32,17 @@ the image looks like
 
 run the test code
 
-> from bank_card_detection import bank_card_detection
->
-> bank_card_detection('Platinum-Credit-Card_tcm74-220679.jpg')
+```python
+from bank_card_detection import bank_card_detection
+
+bank_card_detection('Platinum-Credit-Card_tcm74-220679.jpg')
+```
 
 you will see the following output since the image itself is a credit card
 
-> {'tag': 'bank_card', 'score': 0.9966258}
+```python
+{'tag': 'bank_card', 'score': 0.9966258}
+```
 
 **Test case #2**
 
