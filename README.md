@@ -140,9 +140,8 @@ bank_card_detection('Dubai_2_2340x800-1170x400.jpg')
 You will see not outputs because there is no bank card at all
 
 ```python
-{}
-
-{}
+{'tag': 'non_bank_card', 'score': 0.99998796}
+{'tag': 'non_bank_card', 'score': 1.0}
 ```
 
 
