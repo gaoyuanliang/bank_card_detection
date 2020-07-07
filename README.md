@@ -59,6 +59,8 @@ https://drive.google.com/file/d/10H70SUi1C5R79cu-27u-bg9ytnZ8JV9F/view?usp=shari
 
 to use the model to tag the image, we have four cases
 
+## usage
+
 **Test case #1**
 
 download the test image by 
@@ -142,3 +144,11 @@ You will see not outputs because there is no bank card at all
 
 {}
 ```
+
+
+### I am looking for job
+
+
+feel free to contact me if you have any problem with this package or you are hiring data scientist/AI engineer. I am actively looking for data science/AI related jobs
+
+My email: gaoyuanliang@outlook.com
