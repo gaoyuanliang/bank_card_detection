@@ -1,3 +1,44 @@
+# road sign tagging
+
+Tagging images of road signs
+
+<table>
+  <thead>
+    <tr>
+      <th>Input</th>
+      <th>Output</th>
+    </tr>
+  </thead>
+  <tr>
+    <td>
+      <img src="https://www.mashreqbank.com/egypt/en/images/Platinum-Credit-Card_tcm74-220679.jpg" width="600">
+    </td>
+    <td>
+      <pre>
+{
+  'tag': 'bank_card', 
+  'score': 0.9966258
+}
+</pre>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://ichef.bbci.co.uk/news/1024/media/images/67649000/jpg/_67649781_160757669.jpg" width="600">
+    </td>
+    <td>
+      <pre>
+{
+  'tag': 'bank_card', 
+  'score': 0.9973912
+}
+</pre>
+    </td>
+  </tr>
+</table>
+
+## instillation
+
 to install the bank card detector, you need Python 3.7.7 
 
 ```bash
