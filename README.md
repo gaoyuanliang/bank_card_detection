@@ -111,39 +111,31 @@ you will see the following output since the image has a group of visa cards
 {'tag': 'bank_card', 'score': 0.9973912}
 ```
 
-**Test case #3 and #4**
+**Test case #3**
 
-Then we will see two negative casese where the images have no bank card at all. 
+Then we will see one negative casese where the image have no bank card at all. 
 
 Firstly download the images by 
 
 ```bash
 wget https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Sample_cheque.jpeg/1200px-Sample_cheque.jpeg
-
-wget https://www.uae-ix.net/Files/1e45b49e6debd4ed0a5e4dffbf17aa3fe5c04f89/Dubai_2_2340x800-1170x400.jpg
 ```
 
-They look like 
+The image looks like 
 
- <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Sample_cheque.jpeg/1200px-Sample_cheque.jpeg" width="400">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Sample_cheque.jpeg/1200px-Sample_cheque.jpeg" width="400">
  
-<img src="https://www.uae-ix.net/Files/1e45b49e6debd4ed0a5e4dffbf17aa3fe5c04f89/Dubai_2_2340x800-1170x400.jpg" width="400">
-
 Run the tagging codes
 
 ```python
 bank_card_detection('1200px-Sample_cheque.jpeg')
-
-bank_card_detection('Dubai_2_2340x800-1170x400.jpg')
 ```
 
-You will see not outputs because there is no bank card at all
+You will see the output of non bank card because there is no bank card at all
 
 ```python
 {'tag': 'non_bank_card', 'score': 0.99998796}
-{'tag': 'non_bank_card', 'score': 1.0}
 ```
-
 
 ### I am looking for job
 
