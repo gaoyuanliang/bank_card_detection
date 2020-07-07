@@ -71,7 +71,7 @@ wget https://www.mashreqbank.com/egypt/en/images/Platinum-Credit-Card_tcm74-2206
 
 the image looks like
 
-![alt text](https://www.mashreqbank.com/egypt/en/images/Platinum-Credit-Card_tcm74-220679.jpg)
+<img src="https://www.mashreqbank.com/egypt/en/images/Platinum-Credit-Card_tcm74-220679.jpg" width="400">
 
 run the test code
 
@@ -97,8 +97,8 @@ wget https://ichef.bbci.co.uk/news/1024/media/images/67649000/jpg/_67649781_1607
 
 the image looks like
 
-![alt text](https://ichef.bbci.co.uk/news/1024/media/images/67649000/jpg/_67649781_160757669.jpg)
-
+<img src="https://ichef.bbci.co.uk/news/1024/media/images/67649000/jpg/_67649781_160757669.jpg" width="400">
+ 
 run the test code
 
 ```python
@@ -125,11 +125,11 @@ wget https://www.uae-ix.net/Files/1e45b49e6debd4ed0a5e4dffbf17aa3fe5c04f89/Dubai
 
 They look like 
 
-![alt text](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Sample_cheque.jpeg/1200px-Sample_cheque.jpeg)
+ <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Sample_cheque.jpeg/1200px-Sample_cheque.jpeg" width="400">
+ 
+<img src="https://www.uae-ix.net/Files/1e45b49e6debd4ed0a5e4dffbf17aa3fe5c04f89/Dubai_2_2340x800-1170x400.jpg" width="400">
 
-![alt text](https://www.uae-ix.net/Files/1e45b49e6debd4ed0a5e4dffbf17aa3fe5c04f89/Dubai_2_2340x800-1170x400.jpg)
-
-Run the detection codes
+Run the tagging codes
 
 ```python
 bank_card_detection('1200px-Sample_cheque.jpeg')
