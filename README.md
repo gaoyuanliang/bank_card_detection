@@ -1,4 +1,4 @@
-# road sign tagging
+# bank card tagging
 
 Tagging images of road signs
 
