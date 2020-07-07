@@ -24,13 +24,13 @@ Tagging images of road signs
   </tr>
   <tr>
     <td>
-      <img src="https://ichef.bbci.co.uk/news/1024/media/images/67649000/jpg/_67649781_160757669.jpg" width="400">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Sample_cheque.jpeg/1200px-Sample_cheque.jpeg" width="400">
     </td>
     <td>
       <pre>
 {
-  'tag': 'bank_card', 
-  'score': 0.9973912
+  'tag': 'non_bank_card', 
+  'score': 0.99998796
 }
 </pre>
     </td>
