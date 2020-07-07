@@ -1,6 +1,6 @@
 # bank card tagging
 
-Tagging images of road signs
+Tagging images of bank cards, such as credit card, debit card, etc
 
 <table>
   <thead>
