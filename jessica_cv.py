@@ -7,7 +7,7 @@ from keras.losses import *
 from keras.layers import *
 from keras.metrics import *
 
-from pavi_local_spark_building import sqlContext
+from jessica_local_spark_building import sqlContext
 from pyspark.sql.types import StructType, StructField, StringType
 
 from pyspark import StorageLevel
