@@ -1,5 +1,5 @@
 ########bank_card_detection.py########
-from pavi import *
+from jessica_cv import *
 
 model = load_build_image_categorization_model(
 	model_file = 'bank_card.h5py')
@@ -15,6 +15,8 @@ def bank_card_detection(input_file):
 	score = numpy.max(y_score)
 	if prediction > 0:
 		output["tag"] = 'bank_card'
-		output["score"] = score
+	else:
+		output["tag"] = 'non_bank_card'
+	output["score"] = score
 	return output
 ########bank_card_detection.py########
