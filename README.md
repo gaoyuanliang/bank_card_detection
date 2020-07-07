@@ -11,7 +11,7 @@ Tagging images of road signs
   </thead>
   <tr>
     <td>
-      <img src="https://www.mashreqbank.com/egypt/en/images/Platinum-Credit-Card_tcm74-220679.jpg" width="600">
+      <img src="https://www.mashreqbank.com/egypt/en/images/Platinum-Credit-Card_tcm74-220679.jpg" width="400">
     </td>
     <td>
       <pre>
@@ -24,7 +24,7 @@ Tagging images of road signs
   </tr>
   <tr>
     <td>
-      <img src="https://ichef.bbci.co.uk/news/1024/media/images/67649000/jpg/_67649781_160757669.jpg" width="600">
+      <img src="https://ichef.bbci.co.uk/news/1024/media/images/67649000/jpg/_67649781_160757669.jpg" width="400">
     </td>
     <td>
       <pre>
