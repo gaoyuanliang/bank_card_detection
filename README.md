@@ -57,7 +57,7 @@ download the pretrain model of bank card detection from the following url
 https://drive.google.com/file/d/10H70SUi1C5R79cu-27u-bg9ytnZ8JV9F/view?usp=sharing
 ```
 
-to use the model to tag the image, we have four cases
+to use the model to tag the image, we have three cases
 
 ## usage
 
