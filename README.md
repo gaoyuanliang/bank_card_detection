@@ -11,7 +11,7 @@ Tagging images of bank cards, such as credit card, debit card, etc
   </thead>
   <tr>
     <td>
-      <img src="https://github.com/gaoyuanliang/bank_card_detection/blob/master/bank_card.jfif" width="400">
+      <img src="https://github.com/gaoyuanliang/bank_card_detection/blob/master/bank_card.jpg" width="400">
     </td>
     <td>
       <pre>
@@ -24,7 +24,7 @@ Tagging images of bank cards, such as credit card, debit card, etc
   </tr>
   <tr>
     <td>
-      <img src="https://github.com/gaoyuanliang/bank_card_detection/blob/master/non_bank_card.jfif" width="400">
+      <img src="https://github.com/gaoyuanliang/bank_card_detection/blob/master/non_bank_card.jpeg" width="400">
     </td>
     <td>
       <pre>
