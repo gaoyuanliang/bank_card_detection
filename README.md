@@ -85,12 +85,12 @@ you will see the following output since the image itself is a credit card
 
 the seconde image looks like
 
-<img src="https://ichef.bbci.co.uk/news/1024/media/images/67649000/jpg/_67649781_160757669.jpg" width="400">
+<img src="https://github.com/gaoyuanliang/bank_card_detection/blob/master/bank_card1.jpg" width="400">
  
 run the test code
 
 ```python
-bank_card_detection('_67649781_160757669.jpg')
+bank_card_detection('bank_card1.jpg')
 ```
 
 you will see the following output since the image has a group of visa cards
