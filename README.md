@@ -11,7 +11,7 @@ Tagging images of bank cards, such as credit card, debit card, etc
   </thead>
   <tr>
     <td>
-      <img src="https://www.mashreqbank.com/egypt/en/images/Platinum-Credit-Card_tcm74-220679.jpg" width="400">
+      <img src="https://github.com/gaoyuanliang/bank_card_detection/blob/master/bank_card.jfif" width="400">
     </td>
     <td>
       <pre>
