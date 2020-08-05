@@ -101,22 +101,14 @@ you will see the following output since the image has a group of visa cards
 
 **Test case #3**
 
-Then we will see one negative casese where the image have no bank card at all. 
+Then we will see one negative casese where the image have no bank card at all. The image looks like 
 
-Firstly download the images by 
-
-```bash
-wget https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Sample_cheque.jpeg/1200px-Sample_cheque.jpeg
-```
-
-The image looks like 
-
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Sample_cheque.jpeg/1200px-Sample_cheque.jpeg" width="400">
+<img src="https://github.com/gaoyuanliang/bank_card_detection/blob/master/non_bank_card.jpeg" width="400">
  
 Run the tagging codes
 
 ```python
-bank_card_detection('1200px-Sample_cheque.jpeg')
+bank_card_detection('non_bank_card.jpeg')
 ```
 
 You will see the output of non bank card because there is no bank card at all
