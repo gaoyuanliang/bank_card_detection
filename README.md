@@ -63,22 +63,16 @@ to use the model to tag the image, we have four cases
 
 **Test case #1**
 
-download the test image by 
+the first image looks like
 
-```bash
-wget https://www.mashreqbank.com/egypt/en/images/Platinum-Credit-Card_tcm74-220679.jpg
-```
-
-the image looks like
-
-<img src="https://www.mashreqbank.com/egypt/en/images/Platinum-Credit-Card_tcm74-220679.jpg" width="400">
+<img src="https://github.com/gaoyuanliang/bank_card_detection/blob/master/bank_card.jpg" width="400">
 
 run the test code
 
 ```python
 from bank_card_detection import bank_card_detection
 
-bank_card_detection('Platinum-Credit-Card_tcm74-220679.jpg')
+bank_card_detection('bank_card.jpg')
 ```
 
 you will see the following output since the image itself is a credit card
@@ -89,13 +83,7 @@ you will see the following output since the image itself is a credit card
 
 **Test case #2**
 
-download the test image by 
-
-```bash
-wget https://ichef.bbci.co.uk/news/1024/media/images/67649000/jpg/_67649781_160757669.jpg
-```
-
-the image looks like
+the seconde image looks like
 
 <img src="https://ichef.bbci.co.uk/news/1024/media/images/67649000/jpg/_67649781_160757669.jpg" width="400">
  
