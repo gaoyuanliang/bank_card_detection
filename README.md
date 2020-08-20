@@ -1,4 +1,4 @@
-# bank card tagging
+# Bank card image tagging by deep learning
 
 Tagging images of bank cards, such as credit card, debit card, etc, based on Xception pretrained deep feature extraction and my own trained classification layers
 
