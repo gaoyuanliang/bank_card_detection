@@ -1,6 +1,8 @@
 # bank card tagging
 
-Tagging images of bank cards, such as credit card, debit card, etc
+Tagging images of bank cards, such as credit card, debit card, etc, based on Xception pretrained deep feature extraction and my own trained classification layers
+
+<img src="https://github.com/gaoyuanliang/bank_card_detection/raw/master/Webp.net-gifmaker.gif" width="600">
 
 <table>
   <thead>
