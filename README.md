@@ -4,6 +4,8 @@ Tagging images of bank cards, such as credit card, debit card, etc, based on Xce
 
 <img src="https://github.com/gaoyuanliang/bank_card_detection/raw/master/Webp.net-gifmaker.gif" width="600">
 
+Same image tagging examples: 
+
 <table>
   <thead>
     <tr>
