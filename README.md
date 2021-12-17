@@ -2,7 +2,7 @@
 
 Tagging images of bank cards, such as credit card, debit card, etc, based on Xception pretrained deep feature extraction and my own trained classification layers
 
-<img src="https://github.com/gaoyuanliang/bank_card_detection/raw/master/Webp.net-gifmaker.gif" width="600">
+<img src="https://github.com/liang6261515/bank_card_detection/raw/master/Webp.net-gifmaker.gif" width="600">
 
 Same image tagging examples: 
 
@@ -15,7 +15,7 @@ Same image tagging examples:
   </thead>
   <tr>
     <td>
-      <img src="https://github.com/gaoyuanliang/bank_card_detection/blob/master/bank_card.jpg" width="400">
+      <img src="https://github.com/liang6261515/bank_card_detection/blob/master/bank_card.jpg" width="400">
     </td>
     <td>
       <pre>
@@ -28,7 +28,7 @@ Same image tagging examples:
   </tr>
   <tr>
     <td>
-      <img src="https://github.com/gaoyuanliang/bank_card_detection/blob/master/non_bank_card.jpeg" width="400">
+      <img src="https://github.com/liang6261515/bank_card_detection/blob/master/non_bank_card.jpeg" width="400">
     </td>
     <td>
       <pre>
@@ -46,7 +46,7 @@ Same image tagging examples:
 to install the bank card detector, you need Python 3.7.7 
 
 ```bash
-git clone https://github.com/gaoyuanliang/bank_card_detection.git
+git clone https://github.com/liang6261515/bank_card_detection.git
 
 cd bank_card_detection
 
@@ -69,7 +69,7 @@ to use the model to tag the image, we have three cases
 
 the first image looks like
 
-<img src="https://github.com/gaoyuanliang/bank_card_detection/blob/master/bank_card.jpg" width="400">
+<img src="https://github.com/liang6261515/bank_card_detection/blob/master/bank_card.jpg" width="400">
 
 run the test code
 
@@ -89,7 +89,7 @@ you will see the following output since the image itself is a credit card
 
 the seconde image looks like
 
-<img src="https://github.com/gaoyuanliang/bank_card_detection/blob/master/bank_card1.jpg" width="400">
+<img src="https://github.com/liang6261515/bank_card_detection/blob/master/bank_card1.jpg" width="400">
  
 run the test code
 
@@ -107,7 +107,7 @@ you will see the following output since the image has a group of visa cards
 
 Then we will see one negative casese where the image have no bank card at all. The image looks like 
 
-<img src="https://github.com/gaoyuanliang/bank_card_detection/blob/master/non_bank_card.jpeg" width="400">
+<img src="https://github.com/liang6261515/bank_card_detection/blob/master/non_bank_card.jpeg" width="400">
  
 Run the tagging codes
 
